@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: url(/img/fundo.jpg);
+    text-align: center;
+  
+}
+h1{
+    color:rgb(250, 64, 2);
+   
+}
+button{
+    text-align:  center;
+    font-size: 40px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.507);
+    color: rgba(238, 234, 228, 0.753);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.calc{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.863);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+#resultado{
+    width: 265px;
+    height: 40px;
+    margin:5px;
+    background: rgb(245, 241, 241);
+    color:rgb(10, 10, 10);
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+}
+.botao{
+    cursor: pointer;
+    width: 60px;
+    height:50px;
+    font-size: 25px;
+    color: red;
+    background: transparent;
+    margin: 2px;
+}
+.botao:hover{
+    background:rgb(246, 247, 245);
+    color: rgb(0, 0, 0);
+}
+.botao-result{
+    cursor: pointer;
+    width: 100%;
+    height:110px;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    background: rgb(22, 238, 2);
+}
+
+.botao-result:hover{
+    background: rgba(5, 168, 19, 0);
+    color: red;
+}
+.botao-off{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    background: red;
+}
+.botao-off:hover{
+    color: rgb(252, 1, 1);
+    background: rgba(253, 118, 7, 0); 
+}
+.botao-del{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    background: rgb(255, 251, 14);
+}
+.botao-del:hover{
+    color: rgb(255, 0, 0);
+    background: transparent;
+}
+.botao-div{
+    cursor: pointer;
+    width: 65px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    background: rgb(17, 0, 255);
+}
+.botao-div:hover{
+    color: rgb(255, 0, 0);
+    background: transparent;
+}
+.botao-mult{
+    cursor: pointer;
+    width: 65px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    background: blue;
+}
+.botao-mult:hover{
+    color: rgb(255, 0, 0);
+    background: transparent;
+}
+.botao-dimi{
+    cursor: pointer;
+    width: 65px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    background: blue;
+}
+.botao-dimi:hover{
+    color: rgb(255, 0, 0);
+    background: transparent;
+}
+.botao-soma{
+    cursor: pointer;
+    width: 65px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    background: blue;
+}
+.botao-soma:hover{
+    color: rgb(255, 0, 0);
+    background: transparent;
+}
